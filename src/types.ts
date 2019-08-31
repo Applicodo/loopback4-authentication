@@ -34,6 +34,6 @@ export interface AuthenticateFn<T> {
 
 export interface ClientAuthCode<T extends IAuthUser> {
   clientId: string;
-  userId?: number | string;
+  userId?: string;
   user?: T;
 }
